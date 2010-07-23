@@ -1,23 +1,44 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
-  <head> 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
-    <title>vancal.org: Vancouver Hack Space Calendar</title> 
- 
-    <!-- booya, we have RSS! --> 
-    <link href="http://github.com/feeds/vhs/commits/vancal/master"
-        rel="alternate" title="Recent Commits to vancal:master"
-        type="application/atom+xml" /> 
- 
-        <style type="text/css"> 
-            p { font-family:"Courier",Georgia,Serif }
-			.softwareNight { border-bottom: 2px solid red; }
-			.hardwareNight { border-bottom: 2px solid green; }
-			.craftNight { border-bottom: 2px solid yellow; }
-        </style> 
-  </head> 
-  <body> 
-    <pre> 
-                                                                          
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+	<title>vancal.org: Vancouver Hack Space Calendar</title> 
+
+	<!-- booya, we have RSS! --> 
+	<link href="http://github.com/feeds/vhs/commits/vancal/master"
+		  rel="alternate" title="Recent Commits to vancal:master"
+		  type="application/atom+xml" /> 
+
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<style type="text/css" media="screen"> /* Declaring HTML5 elements */
+		article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {
+		display: block;
+	}
+	</style>
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.1.1/build/cssreset/reset-min.css" />
+	
+	<style>
+	
+		#main { float: left; width: 600px;  }
+		#wrapper { width:  600px; margin: 0px auto; }
+		footer { margin-top: 20px; text-align: center; clear: both;  }
+		hgroup { margin-bottom: 20px; }
+		
+		article header h1{ font-weight: bold; }
+		article { margin-bottom: 20px; }
+		
+		.dtstart { display: none ; }
+	
+	</style>
+
+</head> 
+<body> 
+<body>
+<div id="wrapper">
+
+
+	<header>
+		<hgroup>
+<pre> 
 o     o  o    o .oPYo.   .oPYo.        8                   8              
 8     8  8    8 8        8    8        8                   8              
 8     8 o8oooo8 `Yooo.   8      .oPYo. 8 .oPYo. odYo. .oPYo8 .oPYo. oPYo. 
@@ -27,139 +48,111 @@ o     o  o    o .oPYo.   .oPYo.        8                   8
 :::..::::..:::..:.....::::.....::.....:..:.....:..::..:.....::.....:..::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
- 
-                   This site best viewed in 80x24.
- 
-    </pre> 
-      <p>VHS is the <a href="http://hackspace.ca">Vancouver Hack Space</a>.<br />
-	     <a href='http://vancouver.hackspace.ca/doku.php?id=map'>45 W. Hastings St</a> – entrance is through the back alley</p> 
-    <pre> 
- 
+</pre>
+		<p>VHS is the <a href="http://hackspace.ca">Vancouver Hack Space</a>. 
+		   <a href='http://vancouver.hackspace.ca/doku.php?id=map'>45 W. Hastings St</a> – entrance is <a href='http://allium.hackspace.ca/walkthealley.mpg'>through the back alley</a></p>
+		</hgroup>
+	</header>
+
+	
+	
+	
+	<section id="main">
+		<section id="content">
+
+<pre>
   |   |  
 \_||_||\/
        / 
- 
-<strong>Monday July 5th - VHS Crafter Night</strong> 
-Our first of many crafter nights at VHS. Topic TBA.
- 
-<strong>Monday July 19th - VHS Crafter Night (modular origami)</strong> 
-Modular origami, or unit origami, is a paperfolding technique which uses 
-multiple sheets of paper to create a larger and more complex structure than 
-would be possible using single-piece origami techniques. Each individual sheet 
-of paper is folded into a module, or unit, and then modules are assembled into 
-an integrated flat shape or three-dimensional structure by inserting flaps into 
-pockets created by the folding process. These insertions create tension or 
-friction that holds the model together.
- 
-We will be making one of three modular constructions of 12 or 32 units ranging 
-from beginner to intermediate skill level. Mathew will bring some origami paper, 
-but for those who want to pick up paper, Yokayaya123 in International Village 
-(Tinseltown) or Daiso in Aberdeen mall have a large selection of 6" x 6" sheets 
-in many colours and patterns for $2 a package of 30-100
- 
-<strong>Tuesday, July 20th - LED workshop</strong> 
-We are holding an introductory LED workshop. We will go over some of the 
-fundamentals to get you rolling! This night is being held in conjunction with 
-Public Dreams( <a href='http://www.publicdreams.org/'>Illuminaries festival</a>) 
-and will also feature some lantern making tutorials . Fancy building you own LED 
-Lantern? Come find out how! We would like to make this a collaborative night, so 
-if you have some LED based projects, please bring them down and show them off.
- 
-<strong>Thursday, July 22nd - OpenFrameworks</strong> 
-<a href='http://www.openframeworks.cc/'>Openframeworks</a> is a c++ library designed to assist the creative process by 
-providing a simple and intuitive framework for experimentation. The library is 
-designed to work as a general purpose glue, and wraps together several commonly 
-used libraries under a tidy interface: openGL for graphics, rtAudio for audio 
-input and output, freeType for fonts,freeImage for image input and output, 
-quicktime for video playing and sequence grabbing.
+</pre>			
+		
 
-<strong>Tuesday, July 27th, 2010 - 7:30 PM - Android Software Night</strong>
-Fresh from <a href='http://www.oscon.com/oscon2010'>OSCON</a>, we're going to have <a href='http://www.android.com/'>Android Night</a>.  Instead of a hardware 
-night, we're going to do a software night, where we do some Android tutorials, 
-and cover Android Development, Contributions and how to hack your Android 
-Device.  This will be informal, and is open to all skill levels, and even those
-who don't have Android Devices.  I might even bring down the <a href='http://beagleboard.org/'>BeagleBoard</a>. If 
-you like Android, and you want to talk about Android with people who like and 
-use Android, come on down:
-Bottom Liner: Joe
-
-<strong><span class='softwareNight'>Thursday</span>, July 29th, 2010 - VHS Video night</strong>
-Bottom Liner: Goldfish
-
+			<article class="vevent">
+				<header>
+					<h1 class='summary'>Android Software Night</h1>
+					<span class="dtstart">2010-07-27T19:00-08:0000</span><p>(<time datetime="2010-07-27">Tuesday, July 27th, 2010</time>)</p>
+				</header>
+				<p class='description'>Fresh from <a href='http://www.oscon.com/oscon2010'>OSCON</a>, we're going to have <a href='http://www.android.com/'>Android Night</a>. Instead of a hardware night, we're going to do a software night, where we do some Android tutorials, and cover Android Development, Contributions and how to hack your Android Device. This will be informal, and is open to all skill levels, and even those who don't have Android Devices.  I might even bring down the <a href='http://beagleboard.org/'>BeagleBoard</a>. If you like Android, and you want to talk about Android with people who like and use Android, come on down.</p>
+<p>Bottom Liner: Joe</p>
+			</article>
+			
+			<article class="vevent">
+				<header>
+					<h1 class='summary'>VHS Video night</h1>
+					<span class="dtstart">2010-07-29T19:00-08:0000</span><p>(<time datetime="2010-07-29">Thursday, July 29th, 2010</time>)</p>
+				</header>
+				<p class='description'>The plan is to make an info video about the space. film, edit and post all in one night was the plan.</p>
+				<p>Bottom Liner: Goldfish</p>
+			</article>
+			
+<pre>
  /\     _     _ _|_ 
 /--\|_|(_||_|_>  |_ 
         _|          
-
-<strong><span class='craftNight'>Monday</span>, August 2nd, 2010 - Craft Orama-Rama</strong>
-Bottom Liner: Emily+Goldfish
-
-<strong><span class='hardwareNight'>Tuesday</span>, August 3rd, 2010 - EL-Wire</strong>
-<a href='http://en.wikipedia.org/wiki/Electroluminescent_wire'>Electroluminescent wire</a> AKA EL-Wire can be picked up from <a href='http://www.leeselectronic.com/'>Lee's Electronics</a>.
-Bottom Liner: Joe
-
-<strong><span class='softwareNight'>Thursday</span>, August 5th, 2010 - Robo night #3</strong>
-
-<strong><span class='hardwareNight'>Tuesday</span>, August 10th, 2010 - Kit night</strong>
-
-<strong><span class='craftNight'>Monday</span>, August 16th, 2010 - Craft Orama-Rama Yarn Bombing</strong>
-
-<strong><span class='hardwareNight'>Tuesday</span>, August 17th, 2010 - Space night</strong>
-
-<strong><span class='softwareNight'>Thursday</span>, August 21th, 2010 - SHHH10 ?</strong>
-
- 
-<!--
-  | _.._     _.._  
-\_|(_|| ||_|(_|| \/
-                 / 
- _                  
-|_ _ |_ ._    _.._  
-| (/_|_)| |_|(_|| \/
-                  / 
-               
-|\/| _.._ _ |_ 
-|  |(_|| (_ | |
-               
- /\ ._ ._ o|
-/--\|_)|  ||
-    |       
-         
-|\/| _.  
-|  |(_|\/
-       / 
-            
-  |   ._  _ 
-\_||_|| |(/_
-            
-         
-  |   |  
-\_||_||\/
-       / 
-                    
- /\     _     _ _|_ 
-/--\|_|(_||_|_>  |_ 
-        _|          
- __                          
-(_  _ ._ _|_ _ ._ _ |_  _ ._ 
-__)(/_|_) |_(/_| | ||_)(/_|  
-      |                      
- _                   
-/ \ _ _|_ _ |_  _ ._ 
-\_/(_  |_(_)|_)(/_|  
-                     
-                          
-|\ | _    _ ._ _ |_  _ ._ 
-| \|(_)\/(/_| | ||_)(/_|  
-                          
- _                       
-| \ _  _ _ ._ _ |_  _ ._ 
-|_/(/_(_(/_| | ||_)(/_|  
- 
- 
---> 
-                <pre> 
- 
-                                                                    
+</pre>				
+			
+			<article class="vevent">
+				<header>
+					<h1 class='summary'>Craft Orama-Rama</h1>
+					<span class="dtstart">2010-08-02T19:00-08:0000</span><p>(<time datetime="2010-08-02">Monday, August 2nd, 2010</time>)</p>
+				</header>
+				<p>Bottom Liner: Emily+Goldfish</p>
+			</article>
+			
+			<article class="vevent">
+				<header>
+					<h1 class='summary'>EL-Wire</h1>
+					<span class="dtstart">2010-08-03T19:00-08:0000</span><p>(<time datetime="2010-08-03">Tuesday, August 3rd, 2010</time>)</p>
+				</header>
+				<p class='description'><a href='http://en.wikipedia.org/wiki/Electroluminescent_wire'>Electroluminescent wire</a> AKA EL-Wire can be picked up from <a href='http://www.leeselectronic.com/'>Lee's Electronics</a>.</p>
+				<p>Bottom Liner: Joe</p>
+			</article>
+			
+			<article class="vevent">
+				<header>
+					<h1 class='summary'>Robo night #3</h1>
+					<span class="dtstart">2010-08-05T19:00-08:0000</span><p>(<time datetime="2010-08-05">Thursday, August 5th, 2010</time>)</p>
+				</header>
+				<p class='description'></p>
+			</article>			
+			
+			<article class="vevent">
+				<header>
+					<h1 class='summary'>Kit night</h1>
+					<span class="dtstart">2010-08-10T19:00-08:0000</span><p>(<time datetime="2010-08-10">Tuesday, August 10th, 2010</time>)</p>
+				</header>
+				<p class='description'></p>
+			</article>			
+			
+			<article class="vevent">
+				<header>
+					<h1 class='summary'>Craft Orama-Rama Yarn Bombing</h1>
+					<span class="dtstart">2010-08-16T19:00-08:0000</span><p>(<time datetime="2010-08-16">Monday, August 16th, 2010</time>)</p>
+				</header>
+				<p class='description'></p>
+			</article>			
+			
+			<article class="vevent">
+				<header>
+					<h1 class='summary'>Space night</h1>
+					<span class="dtstart">2010-08-17T19:00-08:0000</span><p>(<time datetime="2010-08-17">Tuesday, August 17th, 2010</time>)</p>
+				</header>
+				<p class='description'></p>
+			</article>			
+			
+			<article class="vevent">
+				<header>
+					<h1 class='summary'>SHHH10 ?</h1>
+					<span class="dtstart">2010-08-21T19:00-08:0000</span><p>(<time datetime="2010-08-21">Thursday, August 21th, 2010</time>)</p>
+				</header>
+				<p class='description'></p>
+			</article>			
+			
+		</section>					
+		<!-- end of #content -->
+		
+		<section id="oldEvents">
+<pre>                                                               
  .oPYo.                 o    .oPYo.                       o         
  8    8                 8    8.                           8         
 o8YooP' .oPYo. .oPYo.  o8P   `boo   o    o .oPYo. odYo.  o8P .oPYo. 
@@ -169,7 +162,58 @@ o8YooP' .oPYo. .oPYo.  o8P   `boo   o    o .oPYo. odYo.  o8P .oPYo.
 :..::::::.....::.....:::..::::.....:::...:::.....:..::..::..::.....:
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
- 
+
+
+</pre>
+<pre>
+  |   |  
+\_||_||\/
+       / 
+</pre>		
+		
+			<article class="old_vevent">
+				<header>
+					<h1 class='summary'>VHS Crafter Night</h1>
+					<p>(<time datetime="2010-07-05">Monday July 5th</time>)</p>
+				</header>
+				<p class='description'>Our first of many crafter nights at VHS. Topic TBA.</p>
+			</article>
+					
+			<article class="old_vevent">
+				<header>
+					<h1 class='summary'>VHS Crafter Night (modular origami)</h1>
+					<p>(<time datetime="2010-07-19">Monday July 19th</time>)</p>
+				</header>
+				<p class='description'>Modular origami, or unit origami, is a paperfolding technique which uses multiple sheets of paper to create a larger and more complex structure than would be possible using single-piece origami techniques. Each individual sheet of paper is folded into a module, or unit, and then modules are assembled into an integrated flat shape or three-dimensional structure by inserting flaps into pockets created by the folding process. These insertions create tension or friction that holds the model together.</p>
+				<p class='description'>We will be making one of three modular constructions of 12 or 32 units ranging from beginner to intermediate skill level. Mathew will bring some origami paper, 
+but for those who want to pick up paper, Yokayaya123 in International Village (Tinseltown) or Daiso in Aberdeen mall have a large selection of 6" x 6" sheets in many colours and patterns for $2 a package of 30-100</p>
+			</article>			
+					
+			<article class="old_vevent">
+				<header>
+					<h1 class='summary'>LED workshop</h1>
+					<p>(<time datetime="2010-07-20">Tuesday July 20th</time>)</p>
+				</header>
+				<p class='description'>We are holding an introductory LED workshop. We will go over some of the fundamentals to get you rolling! This night is being held in conjunction with Public Dreams (<a href='http://www.publicdreams.org/'>Illuminaries festival</a>) and will also feature some lantern making tutorials . Fancy building you own LED Lantern? Come find out how! We would like to make this a collaborative night, so if you have some LED based projects, please bring them down and show them off.</p>
+			</article>
+		
+			<article class="old_vevent">
+				<header>
+					<h1 class='summary'>Thursday, July 22nd - OpenFrameworks</h1>
+					<p>(<time datetime="2010-07-22">Thursday, July 22nd</time>)</p>
+				</header>
+				<p class='description'><a href='http://www.openframeworks.cc/'>Openframeworks</a> is a c++ library designed to assist the creative process by providing a simple and intuitive framework for experimentation. The library is designed to work as a general purpose glue, and wraps together several commonly used libraries under a tidy interface: openGL for graphics, rtAudio for audio 
+input and output, freeType for fonts,freeImage for image input and output, quicktime for video playing and sequence grabbing.</p>
+			</article>
+			
+
+	
+			<article class="old_vevent">
+				<header>
+					<h1 class='summary'>Old old events</h1>
+				</header>
+				
+<pre> 
 Thursday Sept 10th @ VHS: Wifi Night
 - Open night at VHS to mess around with wifi. Among other things, we'll walk through setting up Kismet.
  
@@ -207,77 +251,77 @@ Saturday November 7 @ VHS:
   * 8pm - late: Super Happy Hacker House
     - a night of hands-on hacking -- hardware, software, whatever
     - more info: http://vancouver.hackspace.ca/doku.php?id=shhh_-_november_7th_2009
- 
+
 Tuesday, November 10 @ VHS: Solder Basics Night
- 
- - Thursday, November 12th - Game Jam
-     An overview of the event and a selection of entries from last year's GameJam.  
-     The diversity of submissions may challenge your idea of what a "game" is.
-     Bottom Liner: dantakk
- 
- - Tuesday, November 17th - Infrastructure Meeting / Space Hack night
-     Dealing with the pressing VHS issues of the day, cleaning up the space
-     and hacking more awesome into it.
-     Bottom Liner: VANHOC
- 
- - Thursday, November 19th - Android Application Building Night
-     Native Android App development vs Cross platform development?
-     Bring an idea and a laptop and lets try to build some apps!
-     Bottom Liner: kevinj
- 
- - Tuesday, November 24th - DIY Arduinos
-     Basics of building a bare bones Arduino from scratch!
-     Bottom Liner: Dallas
- 
- - Thursday, November 26th - Open Hack Night
-     Bring your Hardware and Software projects down to work on and show off
-     Bottom Liner: Luke
-     
- - Tuesday, December 1st - Kit Night: TV-B-Gones!
-     Come and build your very own TV-B-Gone! We will have many kits available,
-     instruction, examples and tools!
-     Bottom Liner: Dallas
- 
- - Thursday, December 3rd - Console Hack Night
-     Bring your favourite consoles (portables welcome too) and embark on
-     repair or modification!
-     Bottom Liner: afreak
- 
- - Tuesday, December 8th - Audio, Arduino And Arcane Answers
-     Learn about Audio hacking (circuit bending) or Arduino or intersections
-     of those!
-     Bottom Liner: Unknown
- 
- - Thursday, December 10th - YOUR TOPIC HERE!
-     Insert description here
-     Bottom Liner: unknown
-     
+
+- Thursday, November 12th - Game Jam
+An overview of the event and a selection of entries from last year's GameJam.  
+The diversity of submissions may challenge your idea of what a "game" is.
+Bottom Liner: dantakk
+
+- Tuesday, November 17th - Infrastructure Meeting / Space Hack night
+Dealing with the pressing VHS issues of the day, cleaning up the space
+and hacking more awesome into it.
+Bottom Liner: VANHOC
+
+- Thursday, November 19th - Android Application Building Night
+Native Android App development vs Cross platform development?
+Bring an idea and a laptop and lets try to build some apps!
+Bottom Liner: kevinj
+
+- Tuesday, November 24th - DIY Arduinos
+Basics of building a bare bones Arduino from scratch!
+Bottom Liner: Dallas
+
+- Thursday, November 26th - Open Hack Night
+Bring your Hardware and Software projects down to work on and show off
+Bottom Liner: Luke
+
+- Tuesday, December 1st - Kit Night: TV-B-Gones!
+Come and build your very own TV-B-Gone! We will have many kits available,
+instruction, examples and tools!
+Bottom Liner: Dallas
+
+- Thursday, December 3rd - Console Hack Night
+Bring your favourite consoles (portables welcome too) and embark on
+repair or modification!
+Bottom Liner: afreak
+
+- Tuesday, December 8th - Audio, Arduino And Arcane Answers
+Learn about Audio hacking (circuit bending) or Arduino or intersections
+of those!
+Bottom Liner: Unknown
+
+- Thursday, December 10th - YOUR TOPIC HERE!
+Insert description here
+Bottom Liner: unknown
+
 - Thursday, December 10th - Game Night
- 
+
 - Tuesday, December 15th - Festivus Party
-     Come celebrate with us!
- 
+Come celebrate with us!
+
 - Friday, December 18th - Super Happy Hacker House #5! Wow!
-     Late night hack night on your hardware and software projects!
-     Starts at 7pm, goes till we're done.  BYOB
-     Late night renegade lightning talks ~11:30pm.
- 
+Late night hack night on your hardware and software projects!
+Starts at 7pm, goes till we're done.  BYOB
+Late night renegade lightning talks ~11:30pm.
+
 - Tuesday, December 22nd - Open night (no topic)
- 
+
 - Tuesday, December 29th - Open night (no topic)
- 
+
 - Tuesday, January 5th - Kit Night - TBD
-     Let us know what kind of kit you want to do!
-     Bottom Liner: Unknown
- 
+Let us know what kind of kit you want to do!
+Bottom Liner: Unknown
+
 - Tuesday, January 12th - Intro to Arduino
-     Come learn how to play with all the arduino parts you received as gifts
-     from your hacker friends!
-     Bottom Liner: Unknown
- 
+Come learn how to play with all the arduino parts you received as gifts
+from your hacker friends!
+Bottom Liner: Unknown
+
 - Tuesday, January 19th - Beyond the Arduino
-     Come learn how to learn the limits of the Arduino and where to look next!
-     Bottom Liner: Unknown
+Come learn how to learn the limits of the Arduino and where to look next!
+Bottom Liner: Unknown
  
 Tuesday April 13th - Spaaaace Hacking!
 - Official hack-the-space night!  We'll re-hook up the Arduino to the space
@@ -356,7 +400,71 @@ Thursday June 24th - Robo Challenge Hack Night!
  
 Tuesday June 29th - Robo Challenge Smackdown!
 - Bring your robot and compete in the challenge!
+</pre> 
+		</article>
+		
+		
+		
+		</section>	
+	</section>
+	
+	
+
+	<footer>
+	<p class='description'><a href="http://hackspace.ca">Vancouver Hack Space</a></p>
+	</footer>
+</div>	
+	
+
+<!--
+  | _.._     _.._  
+\_|(_|| ||_|(_|| \/
+                 / 
+ _                  
+|_ _ |_ ._    _.._  
+| (/_|_)| |_|(_|| \/
+                  / 
+               
+|\/| _.._ _ |_ 
+|  |(_|| (_ | |
+               
+ /\ ._ ._ o|
+/--\|_)|  ||
+    |       
+         
+|\/| _.  
+|  |(_|\/
+       / 
+            
+  |   ._  _ 
+\_||_|| |(/_
+            
+         
+  |   |  
+\_||_||\/
+       / 
+                    
+ /\     _     _ _|_ 
+/--\|_|(_||_|_>  |_ 
+        _|          
+ __                          
+(_  _ ._ _|_ _ ._ _ |_  _ ._ 
+__)(/_|_) |_(/_| | ||_)(/_|  
+      |                      
+ _                   
+/ \ _ _|_ _ |_  _ ._ 
+\_/(_  |_(_)|_)(/_|  
+                     
+                          
+|\ | _    _ ._ _ |_  _ ._ 
+| \|(_)\/(/_| | ||_)(/_|  
+                          
+ _                       
+| \ _  _ _ ._ _ |_  _ ._ 
+|_/(/_(_(/_| | ||_)(/_|  
  
-    </pre> 
+ 
+--> 
+
   </body> 
 </html> 
