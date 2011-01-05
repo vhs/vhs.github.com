@@ -1,20 +1,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
 <head> 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
-	<title>vancal.org: Vancouver Hack Space Calendar</title> 
+	<title>Vancal.org: Vancouver Hack Space Calendar</title> 
  
 	<!-- booya! we have RSS! --> 
 	<link href="http://github.com/feeds/vhs/commits/vancal/master"
 		  rel="alternate" title="Recent Commits to vancal:master"
 		  type="application/atom+xml" /> 
  
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.1.1/build/cssreset/reset-min.css" /> 
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
 	<style type="text/css" media="screen"> /* Declaring HTML5 elements */
 		article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {
 		display: block;
 	}
 	</style> 
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.1.1/build/cssreset/reset-min.css" /> 
+	
 	
 	<style> 
 	
@@ -22,22 +23,29 @@
 		#wrapper { width:  600px; margin: 0px auto; }
 		footer { margin-top: 20px; text-align: center; clear: both;  }
 		hgroup { margin-bottom: 20px; }
+		hgroup p { text-align: center; }
 		
 		article header h1{ font-weight: bold; }
 		article { margin-bottom: 20px; }
 		
 		.dtstart { display: none ; }
+		
+		.month {
+			font-family: monospace ; 
+			font-weight: bold; 
+			white-space:pre;
+			margin-bottom: 20px; 
+			
+		}
 	
 	</style> 
+ </head> 
  
-</head> 
 <body> 
 <div id="wrapper"> 
  
- 
-	<header> 
-		<hgroup> 
-<pre> 
+<!-- HEADER section, Do not edit -->
+<header><hgroup><pre> 
 o     o  o    o .oPYo.   .oPYo.        8                   8              
 8     8  8    8 8        8    8        8                   8              
 8     8 o8oooo8 `Yooo.   8      .oPYo. 8 .oPYo. odYo. .oPYo8 .oPYo. oPYo. 
@@ -48,22 +56,40 @@ o     o  o    o .oPYo.   .oPYo.        8                   8
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 </pre> 
-		<p>VHS is the <a href="http://hackspace.ca">Vancouver Hack Space</a>. 
-		   <a href='http://vancouver.hackspace.ca/doku.php?id=map'>45 W. Hastings St</a> - entrance is <a href='http://allium.hackspace.ca/walkthealley.mpg'>through the back alley</a></p> 
-		</hgroup> 
-	</header> 
- 
-	
-	
-	
-	<section id="main"> 
-		<section id="content"> 
+<p>VHS is the <a href="http://hackspace.ca">Vancouver Hack Space</a>. <a href='http://vancouver.hackspace.ca/doku.php?id=map'>45 W. Hastings St</a> - Entrance is <a href='http://allium.hackspace.ca/walkthealley.mpg'>through the back alley</a></p></hgroup></header> 
+<!-- End of HEADER section, Do not edit --> 
 
+
+<section id="main">
+	<section id="content"> 
+		<!-- Add new events here -->
 		
-		</section>					
-		<!-- end of #content --> 
-		
-		<section id="oldEvents"> 
+<div class='month'>
+  | _.._     _.._  
+\_|(_|| ||_|(_|| \/
+                 / 		
+</div>
+
+    <article class="vevent"> 
+        <header> 
+            <h1 class='summary'>Super Happy Hacker House #13</h1> 
+            <p>(<time datetime="2011-01-22">Saturday, January 22nd, 2011</time>)</p> 
+        </header> 
+		<p class='description'>		
+			SHHH is a non-exclusive event intended for creative and curious people
+			interested in technology. We're about knowledge sharing, technology
+			exploration, and ad-hoc collaboration. Come to have fun, build things,
+			learn things, and meet new people. If you've got a project you're
+			working on, bring it along, or just bring yourself.  Laptops are
+			recommended, unless you have something even cooler to work on.</p>
+			
+		<p>Ideally we'll have our makerbot cranking things out during SHHH.	</p>
+	</article>
+
+	
+	
+	</section>		
+	<section id="oldEvents"> 
 <pre>                                                               
  .oPYo.                 o    .oPYo.                       o         
  8    8                 8    8.                           8         
@@ -74,16 +100,14 @@ o8YooP' .oPYo. .oPYo.  o8P   `boo   o    o .oPYo. odYo.  o8P .oPYo.
 :..::::::.....::.....:::..::::.....:::...:::.....:..::..::..::.....:
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
- 
- 
 </pre> 
 				
 
-<pre>
+<div class='month'>
  _                       
 | \ _  _ _ ._ _ |_  _ ._ 
 |_/(/_(_(/_| | ||_)(/_|  
-</pre>
+</div>
 
     <article class="vevent"> 
         <header> 
@@ -95,12 +119,10 @@ Club Mate for this occasion.</p>
         <p>Bottom Liner: Joe B</p>
     </article>					
 				
-<pre>    
-
+<div class='month'>    
 |\ | _    _ ._ _ |_  _ ._ 
 | \|(_)\/(/_| | ||_)(/_|  
-
-</pre>
+</div>
 
  <article class="vevent"> 
         <header> 
@@ -120,12 +142,12 @@ Club Mate for this occasion.</p>
     </article>	
 
 				
-<pre>
+<div class='month'>
  _
 / \ _ _|_ _ |_  _ ._
 \_/(_  |_(_)|_)(/_|
 
-</pre>
+</div>
 
 
 
@@ -160,12 +182,12 @@ Club Mate for this occasion.</p>
     </article>
 	
 	
-<pre>
+<div class='month'>
  __                          
 (_  _ ._ _|_ _ ._ _ |_  _ ._ 
 __)(/_|_) |_(/_| | ||_)(/_|  
       |    
-</pre>	  
+</div>	  
 	<article class="vevent"> 
 		<header> 
 			<h1 class='summary'>information security night</h1> 
@@ -259,11 +281,11 @@ I also have some awesome patterns and resources - if you have any knowledge/patt
 		<p>Bottom Liner: Goldfish</p>
 	</article>
 			
-<pre> 
+<div class='month'> 
  /\     _     _ _|_ 
 /--\|_|(_||_|_>  |_ 
         _|          
-</pre>				
+</div>				
 			
 	
 			<article class="vevent"> 
@@ -372,11 +394,11 @@ Very knowledgeable and great to deal with) or seattlelumin.com (based in Seattle
 			</article>			
 			
 
-<pre> 
+<div class='month'> 
   |   |  
 \_||_||\/
        / 
-</pre>		
+</div>		
 		
 			<article class="old_vevent"> 
 				<header> 
